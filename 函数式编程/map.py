@@ -5,11 +5,12 @@ for i in L1:
     l2.append(i*10)
 print(l2)
 
-def  map(n):
+def  amap(n):
     return n * 10
-l3 = map(map,L1)
+l3 = map(amap,L1)
 
 for i in  l3:
+
     print(i)
 
-
+print(l3)
